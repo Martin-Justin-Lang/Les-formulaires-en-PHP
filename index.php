@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <form  action="http://localhost:8000/" method="get">
+    <form  action="http://localhost:8000/thanks.php" method="post">
         <div>
           <label  for="nom">Nom :</label>
           <input  type="text"  id="nom"  name="user_name">
@@ -42,7 +42,7 @@
         </div>
 
         <div  class="button">
-          <button  type="submit">Envoyer votre message</button>
+          <button type="submit">Envoyer votre message</button>
         </div>
       </form>
   </body>
