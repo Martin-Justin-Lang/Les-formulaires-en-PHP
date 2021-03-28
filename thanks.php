@@ -6,4 +6,15 @@ Un de nos conseiller vous contactera soit à l’adresse '.$_POST["user_email"].
 
 '.$_POST["user_message"].'.';
 
+
+$email = $_POST["user_email"];
+
+if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    echo("This email is valid.");
+}
+else {
+    echo("This is not valid.");
+}
+
+
 ?>
